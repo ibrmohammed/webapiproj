@@ -14,5 +14,11 @@ namespace WebApplication1.Controllers
 
             return View();
         }
+
+        public ActionResult MyfirstView()
+        {
+            ViewBag.Title = "Ibrahim's first view";
+            return View();
+        }
     }
 }

@@ -17,7 +17,7 @@ namespace WebApplication1.Controllers
 
         public ActionResult MyfirstView()
         {
-            ViewBag.Title = "Ibrahim's first view";
+            ViewBag.Title = "Ibrahim's first view modified";
             return View();
         }
     }
